@@ -16,6 +16,7 @@
   --color-lightOrange: #fca99b;
   --color-shop_light_green: #3b9c3c;
   --color-deal-bg: #f1f3f8;
+  
 }
 
 @theme inline {
@@ -132,4 +133,8 @@
   body {
     @apply bg-background text-foreground;
   }
+  .hoverEffect{
+    @apply transition-all duration-300 ease-in-out;
+  }
+ 
 }
